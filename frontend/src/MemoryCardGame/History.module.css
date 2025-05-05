@@ -1,0 +1,12 @@
+.header, .entry {
+  width: 100%;
+  display: flex;
+
+  > span {
+    width: 25%;
+  }
+}
+
+.header {
+  font-weight: bold;
+}

@@ -43,20 +43,20 @@ Build a small part of a card memory game based on your assigned role. This is me
 ### 🧩 **Task Breakdown by Role (Ordered by Importance):**
 
 #### **Frontend Developer:**
-- Style the login page to be visually appealing and responsive.
-- Create a modal dialog for level selection (Easy, Medium, Hard).
+- Style the login page to be visually appealing and responsive. [Done]
+- Create a modal dialog for level selection (Easy, Medium, Hard). [IT ALREADY EXISTS]
 
 #### **Backend Developer:**
-- Implement a simple API endpoint to save game results.
-- Create a route to fetch the game result history (no need for complex authentication).
+- Implement a simple API endpoint to save game results. [IT ALREADY EXISTS]
+- Create a route to fetch the game result history (no need for complex authentication). [Done]
 
 #### **Full Stack Developer:**
-- Complete both the Frontend and Backend tasks.
-- Integrate the API to display the game result history on a new page.
+- Complete both the Frontend and Backend tasks. [Done]
+- Integrate the API to display the game result history on a new page. [Done]
 
 #### **Web3 Developer:**
-- Implement MetaMask wallet connection.
-- Show a message displaying the connected wallet address.
+- Implement MetaMask wallet connection. [Done]
+- Show a message displaying the connected wallet address. [Done]
 
 #### **Designer:**
 - Create assets like a styled Play button and card designs.

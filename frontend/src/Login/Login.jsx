@@ -11,7 +11,7 @@ const Login = ({ onLogin }) => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await axios.post('http://localhost:5000/api/users/login', formData);
+      const response = await axios.post('http://localhost:8000/api/users/login', formData);
       localStorage.setItem('token', response.data.token);
       localStorage.setItem('userID', response.data.userID);
       onLogin();
@@ -47,7 +47,7 @@ const Login = ({ onLogin }) => {
           onChange={(e) => setFormData({ ...formData, password: e.target.value })}
           className={styles.input}
         />
-        <div style={{ display: 'flex', justifyContent: 'space-between' }}>
+        <div className={styles.buttons}>
           <button type="submit" className={`${styles.button} ${styles.loginButton}`}>
             Login
           </button>

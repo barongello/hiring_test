@@ -229,6 +229,26 @@ const Play = () => {
           className={`game-button ${isCalmMode ? "calm-button" : ""}`}
           onClick={() => {
             playClickSound();
+            navigate("/history");
+          }}
+          onMouseEnter={playHoverSound}
+        >
+          History
+        </button>
+        <button
+          className={`game-button ${isCalmMode ? "calm-button" : ""}`}
+          onClick={() => {
+            playClickSound();
+            navigate("/wallet");
+          }}
+          onMouseEnter={playHoverSound}
+        >
+          Web3
+        </button>
+        <button
+          className={`game-button ${isCalmMode ? "calm-button" : ""}`}
+          onClick={() => {
+            playClickSound();
             alert("Instructions coming soon!");
           }}
           onMouseEnter={playHoverSound}

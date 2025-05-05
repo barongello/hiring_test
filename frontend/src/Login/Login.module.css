@@ -17,6 +17,24 @@ h2 {
     margin: 10px 0;
     border-radius: 4px;
     border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+@media screen and (max-width: 184px) {
+    .buttons {
+        justify-content: center;
+        row-gap: 10px;
+    }
+
+    .button {
+        width: 100%;
+    }
 }
 
 .button {
